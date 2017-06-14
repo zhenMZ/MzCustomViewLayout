@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>DEBUG</string>
+		<key>color</key>
+		<dict>
+			<key>topic</key>
+			<string>FFFFFF</string>
+		</dict>
+		<key>list</key>
+		<array>
+			<string>http://test.zgxl168.com</string>
+		</array>
+		<key>cdn</key>
+		<string></string>
+		<key>cache</key>
+		<real>604800</real>
+		<key>cacheEphemerally</key>
+		<string>60</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>RELEASE</string>
+		<key>color</key>
+		<dict>
+			<key>topic</key>
+			<string>FFFFFF</string>
+		</dict>
+		<key>list</key>
+		<array>
+			<string>http://test.zgxl168.com</string>
+		</array>
+		<key>cdn</key>
+		<string></string>
+		<key>cache</key>
+		<string>604800</string>
+		<key>cacheEphemerally</key>
+		<string>60</string>
+	</dict>
+</array>
+</plist>

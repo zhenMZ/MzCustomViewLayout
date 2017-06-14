@@ -1,0 +1,31 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+
+target 'XilianApp' do
+
+#=====测试
+#测试工具FLEX
+pod 'FLEX', '~> 2.4.0’, :configurations => ['Debug']
+#GDP信息显示
+pod 'GDPerformanceView', '~> 1.3.0', :configurations => ['Debug']
+#日志打印
+pod 'CocoaLumberjack', '~> 3.0.0'
+
+#=====网络
+#网络通信
+pod 'AFNetworking', '~> 3.1.0'
+
+#=====页面
+#ADSK and PINRemoteImage
+pod "AsyncDisplayKit" 
+
+#=====安全
+#调用系统钥匙串
+pod 'SAMKeychain', '~> 1.5.2'
+#指纹验证
+#EVNTouchID
+
+#=====数据库
+#pod 'JRDB', '~> 2.0.7'
+
+end
